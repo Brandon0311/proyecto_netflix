@@ -1,0 +1,43 @@
+
+body{
+    background-color: #FAFAFA;
+}
+
+.wrapper{
+    display: flex;
+    margin: 2rem auto;
+}
+    .sidebar{
+        flex: 1;
+        width: auto;
+        height: 35rem;
+        background-color: #171929;
+    }
+        .li_imagen{
+            margin-top:3rem;
+        }
+        .menu{
+            margin-top: 4rem;
+        }
+        .imagen1{
+            width: 15rem;
+            height: 5rem;
+            display:block;
+            margin:auto;
+        }
+
+        .blanco{
+            color: white;
+            font-size: 1.5rem;
+        }
+
+
+
+    .main_container{
+        flex: 2;
+        height: 35rem;
+        width: auto;
+        background-color: white;
+        overflow: auto;
+    }
+
